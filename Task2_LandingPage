@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S2 Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Background Blur Circles -->
+    <div class="blur one"></div>
+    <div class="blur two"></div>
+
+    <!-- Header -->
+    <header>
+        <h1 class="logo">S2</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h2>Design. Develop. Dominate.</h2>
+        <p>I created a aesthetic, modern and powerful digital experiences.</p>
+        <div class="buttons">
+            <button class="primary">Get Started</button>
+            <button class="secondary">Learn More</button>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section glass">
+        <h2>About Us</h2>
+        <p>
+            We are a creative digital agency focused on building stunning 
+            websites and powerful user experiences that elevate brands.
+        </p>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card glass">
+                <h3>UI / UX Design</h3>
+                <p>Minimal and aesthetic interface designs.</p>
+            </div>
+            <div class="card glass">
+                <h3>Web Development</h3>
+                <p>Fast, secure & responsive websites.</p>
+            </div>
+            <div class="card glass">
+                <h3>Brand Strategy</h3>
+                <p>Helping brands stand out digitally.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section glass">
+        <h2>Let’s Work Together</h2>
+        <p>Email: hemachandran.s206@gmail.com</p>
+        <button class="primary">Contact Us</button>
+    </section>
+
+    <footer>
+        © 2026 S2 | Crafted with ❤️
+    </footer>
+
+</body>
+</html>
